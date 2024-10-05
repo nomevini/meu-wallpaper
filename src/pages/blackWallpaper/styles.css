@@ -1,0 +1,45 @@
+html {
+  font-family: Archivo, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffffff;
+  /* Cor de fundo */
+}
+
+.wallpaper {
+  width: 100vw;
+  /* Largura da imagem */
+  height: 100vh;
+  /* Altura da imagem */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #121214;
+  /* Outra cor de fundo opcional */
+}
+
+.thin-text {
+  color: #ffffff;
+  font-size: 38px;
+  /* Tamanho do texto thin */
+  font-weight: 100;
+}
+
+.bold-text {
+  color: #ffffff;
+  font-size: 45px;
+  /* Tamanho do texto bold */
+  font-weight: bold;
+}
+
+#image {
+  width: 50px;
+  opacity: 30%;
+  margin-bottom: 20px;
+}
